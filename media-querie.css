@@ -1,0 +1,206 @@
+@media screen and (max-width: 960px) {
+  .tere-works .detail1,
+  .tere-works .detail2 {
+    height: 600px;
+  }
+  .content .heading h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .tere-benefits .card-wrapper {
+    width: 75%;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .desktop-nav ul {
+    gap:15px;
+  }
+  .tere-benefits .card-wrapper {
+    width: 85%;
+  }
+  .tere-works .detail1,
+  .tere-works .detail2 {
+    height: 650px;
+  }
+  .search-container {
+    width: 95%;
+  }
+  .content .heading h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation .mobile-nav {
+    display: block;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .content .image-wrapper {
+    order: -1;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content .heading {
+    width: 100%;
+  }
+  .content .heading h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .content .heading p {
+    text-align: center;
+  }
+  .content-buttton-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .search-container .text {
+    width: 100%;
+  }
+  .text p {
+    width: 100%;
+    font-size: 24.6px;
+  }
+  .search-bar-wrapper form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search-bar-wrapper form .search-bar,
+  .search-bar-wrapper form .search-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .search-bar-wrapper form .search-button-wrapper a {
+    width: 500px;
+  }
+  .tere-works {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tere-works .circle {
+    order: -1;
+  }
+  .tere-benefits .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .text-wrapper .num h4 {
+    font-weight: 700;
+    font-size: 70px;
+  }
+  .text-wrapper .text {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .tere-benefits .image-wrapper {
+    width: 200px;
+    text-align: center;
+  }
+  .tere-benefits .image-wrapper img {
+    width: 200px;
+  }
+.tere-works{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tere-works .detail1,.tere-works .detail2 {
+  width:100%;
+}
+.tere-works .detail1,.tere-works .detail2{
+  text-align: center;
+  padding: unset;
+  height: unset;
+}
+.tere-works .req-ride,
+.tere-works .notification,
+.tere-works .post,
+.tere-works .payment{
+  margin-top: 50px;
+}
+.tere-works .circle {
+
+  width: 300px;
+  height: 300px;
+}
+
+.detail .slider{
+  display: none;
+}
+  .footer {
+    display: flex;
+    flex-direction: column;
+    border:unset;
+  }
+
+  .footer .footer-logo-wrapper img {
+    width:100px;
+  }
+  .footer .footer-logo-wrapper {
+    order: -2;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .info1 {
+    display: none;
+  }
+  .footer .info2 {
+    text-align: center;
+    width: 80%;
+    line-height: 40px;
+  }
+  .footer .info2 h4 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .footer .footer-buttton-wrapper {
+    display: flex;
+    align-items: center;
+    order: -1;
+  }
+  .rights p {
+    color: var(--primary-color);
+    width: 80%;
+  }
+  .rights {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:400px){
+  .tere-works .circle {
+
+    width: 200px;
+    height: 200px;
+  }
+  .tere-benefits .card-text {
+    width:100%;
+  }
+}
